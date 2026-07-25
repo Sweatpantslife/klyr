@@ -9,7 +9,7 @@ related:
   - research/daily-life/task-initiation-and-paralysis.md
   - research/foundations/executive-function.md
   - research/daily-life/habits-and-routines.md
-sources: 51
+sources: 52
 updated: 2026-07-25
 summary: >
   The intervention evidence review: what actually helps adult ADHD (clinical and tactical layers),
@@ -25,7 +25,7 @@ summary: >
 - **Implementation intentions (if-then planning)** are the best-evidenced portable technique in this doc: d = .65 across 94 tests in the general population, d ≈ .99 in clinical samples; ADHD-specific trials (children) show improved inhibition and delay of gratification. Klyr should natively convert vague intentions into cue-based plans.
 - **Body doubling** is community-discovered and research-emerging: in the first academic survey (220 neurodivergent people), 85% said they were more likely to complete a task alongside someone. No RCTs yet; mechanisms are plausible (social presence, accountability, co-regulation).
 - **Temptation bundling** (Milkman) raised gym attendance 29–51% by locking a pleasure to a should-task — a direct patch for ADHD's steep temporal discounting. Untested in ADHD specifically.
-- **Deadlines and commitment devices help but misfire**: self-imposed deadlines beat none but are set badly (Ariely & Wertenbroch); high-stakes commitment contracts cause real losses for many users, and pressure backfires hard for demand-avoidant profiles. Stakes must be opt-in, low, and reversible.
+- **Deadlines and commitment devices misfire — and the deadline evidence is shaky**: the classic finding that self-imposed deadlines beat none but are set badly (Ariely & Wertenbroch) failed a 2026 replication, so deadline placement is genuinely uncertain science; high-stakes commitment contracts cause real losses for many users, and pressure backfires hard for demand-avoidant profiles. Stakes must be opt-in, low, and reversible.
 - **Mindfulness, exercise, coaching, psychoeducation**: all beneficial as lifestyle/clinical adjuncts; effects vs. *active* controls are modest or unproven. Klyr can encourage, not deliver, most of these.
 - **Timer-based work** (visual timers, ADHD-adapted Pomodoro) rests on clinical consensus + massive community endorsement, not RCTs. The adaptation that matters: flexible intervals, easy on-ramps, never yank a user out of flow.
 - **"Eat the frog" is wrong for most ADHDers most of the time**: in an ADDitude survey (389 readers) only 7% do the hardest thing first; 68% say it depends on the day. Task ordering must be state-based, not doctrine.
@@ -132,7 +132,7 @@ Katy Milkman's **temptation bundling**: restrict a craved indulgence to co-occur
 
 Evidence runs along a hardness spectrum:
 
-- **Deadlines**: people willingly self-impose costly deadlines and they help — but people set them suboptimally; evenly spaced, externally anchored deadlines performed best (Ariely & Wertenbroch) [39]. Translation: Klyr suggesting interim deadlines beats asking users to invent them.
+- **Deadlines — evidence downgraded**: the classic result was that people willingly self-impose costly deadlines and they help — but set them suboptimally, with evenly spaced, externally anchored deadlines performing best (Ariely & Wertenbroch) [39]. That deadline-placement effect failed a 2026 replication, which found placement had negligible effects (Hyndman & Bisin) [52]; per [motivation-and-gamification](./motivation-and-gamification.md), treat "deadlines as motivation" as genuinely uncertain science. Translation: Klyr suggesting interim deadlines is a plausible-but-unproven bet, better anchored to the more robust "shorter delay to something rewarding" principle (chunked milestones) than to this study.
 - **Appointments beat penalties**: in a health field experiment, appointment-style commitments roughly doubled follow-through while most users of financial commitment devices lost their stakes [41]. A scheduled *social* slot (a body-doubling session, a check-in) is a gentler, more effective device than money-burning.
 - **High stakes hurt real people**: in field data, a large share of commitment-contract takers fail and pay — commitment can select the wrong people into the wrong contracts [40].
 - **Demand-avoidant backfire**: for users with a **PDA profile** (pathological demand avoidance / "persistent drive for autonomy" — a contested, non-DSM construct overlapping autism/ADHD), external pressure converts even *self-chosen* goals into threats, triggering avoidance or shutdown; reward-and-consequence systems read as manipulation [42][43]. Many ADHDers without full PDA report a milder version: yesterday's own to-do list already feels like someone else's orders. Add the shame/RSD channel — a failed pledge is an RSD grenade ([emotional-regulation-and-rsd](../foundations/emotional-regulation-and-rsd.md)) — and the design rule writes itself: **accountability in Klyr must be opt-in, low-stakes, reversible, and socially warm rather than punitive.**
@@ -180,7 +180,7 @@ Numbered implications:
 6. **Klyr's timers must never hard-stop a user in flow**: ring softly, offer continue/wrap-up, and log overruns as flow, not overtime. Interrupting hyperfocus is the community's top timer complaint [29][30].
 7. **Klyr should ask (or infer) a lightweight daily state — energy/meds/mood — and reorder suggestions accordingly**, offering a frog-poke on strong days and appetizers on frozen days. 68% of users say ordering "depends on the day"; doctrine loses to state [31].
 8. **All accountability features must be opt-in, low-stakes, reversible, and framed as invitations** ("want a check-in Thursday?"), never penalties by default. Appointments outperform financial stakes; high stakes cause losses; demand-avoidant users treat pressure as threat [39][40][41][42].
-9. **Klyr should propose interim deadlines spaced toward the goal** instead of relying on user-invented ones, which Ariely & Wertenbroch show are set suboptimally [39].
+9. **Klyr may still propose interim deadlines spaced toward the goal** instead of relying on user-invented ones — but grade this community/uncertain, not RCT-backed: the Ariely & Wertenbroch deadline-placement finding [39] failed the 2026 Hyndman & Bisin replication [52] (see [motivation-and-gamification](./motivation-and-gamification.md)). Anchor the feature to shortening the delay to reward — chunked milestones that pay out now — rather than to deadline-placement science.
 10. **Klyr should include a personal dopamine-menu builder and use it to populate break screens**, with deliberate friction before "desserts." Mechanism-plausible, community-loved; must be labeled as a community strategy, not neuroscience [35][36].
 11. **Klyr should build novelty INTO the product**: rotating themes/layouts/modes offered proactively when engagement dips, so "I need a new system" resolves inside Klyr. Converts the abandonment cycle into retention [46][47].
 12. **Klyr must never ship brain-training minigames or claim cognitive-improvement outcomes.** WM training's far-transfer record is the clearest negative result in the ADHD intervention literature [48][49][50][51].
@@ -251,3 +251,4 @@ Numbered implications:
 49. [Chacko et al. — Few Effects of Far Transfer of Working Memory Training in ADHD: A Randomized Controlled Trial](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3790857/) [research]
 50. [Computerized cognitive training in ADHD: meta-analysis of RCTs with blinded and objective outcomes](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10208955/) [research]
 51. [Efficacy of Cogmed working memory training in school-age children: a meta-analysis](https://pubmed.ncbi.nlm.nih.gov/34085876/) [research]
+52. [Hyndman & Bisin, 2026 — Replication of "Procrastination, Deadlines, and Performance: Self-Control by Precommitment" (Psychological Science)](https://journals.sagepub.com/doi/10.1177/09567976261460772) [research]

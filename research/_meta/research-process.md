@@ -5,6 +5,7 @@ file: research/_meta/research-process.md
 tags: [provenance, methodology, limitations]
 related:
   - research/_meta/CONVENTIONS.md
+sources: 0
 updated: 2026-07-25
 summary: >
   Provenance, methodology, and known limitations of the research corpus.

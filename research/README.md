@@ -37,8 +37,8 @@ By a multi-agent research pipeline in July 2026: a 15-document research sweep, a
 
 - **[INDEX.md](INDEX.md)** — always start here. It routes from "I'm working on X" to the two or three docs that should decide X.
 - **[00-executive-summary.md](00-executive-summary.md)** — the whole corpus in about 10 minutes.
-- **[GLOSSARY.md](GLOSSARY.md)** — term lookup; every term carries an evidentiary status tag (clinical, community, contested).
-- Every doc opens with a TL;DR, so skimming is a supported reading mode, not a shortcut.
+- **[GLOSSARY.md](GLOSSARY.md)** — term lookup; every term carries a status tag (clinical, research, community, contested, design).
+- Every research and synthesis doc opens with a TL;DR (INDEX, GLOSSARY, and the `_meta/` docs are exempt), so skimming is a supported reading mode, not a shortcut.
 
 ## How to extend
 

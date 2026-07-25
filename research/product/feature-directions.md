@@ -81,7 +81,7 @@ The corpus is unanimous: thoughts evaporate in seconds, capture is the cheapest 
 - First capture within ~60 seconds of first open, before any account wall ([ux-design-for-adhd](ux-design-for-adhd.md), [app-landscape](app-landscape.md)).
 - Sub-400 ms feedback; waiting is affectively costly, not just inconvenient ([ux-design-for-adhd](ux-design-for-adhd.md), [dopamine-and-motivation](../foundations/dopamine-and-motivation.md)).
 
-**Risks.** Frictionless capture without the downstream triage engine (directions 4, 22, 23) manufactures a doom pile — the *inbox-zero debt* and *shame landfill* anti-patterns ([anti-patterns.md](anti-patterns.md), [daily-life-impact](../daily-life/daily-life-impact.md)). Voice capture may be unusable in public; silent fast paths must be equal citizens ([ux-design-for-adhd](ux-design-for-adhd.md) open questions).
+**Risks.** Frictionless capture without the downstream triage engine (directions 4, 22, 23) manufactures a doom pile — the *overdue shame stacks* anti-pattern (AP-1, [anti-patterns.md](anti-patterns.md), [daily-life-impact](../daily-life/daily-life-impact.md)). Voice capture may be unusable in public; silent fast paths must be equal citizens ([ux-design-for-adhd](ux-design-for-adhd.md) open questions).
 
 **Confidence: evidence-backed** — the working-memory and prospective-memory mechanisms are among the most replicated in the corpus; the exact 3-second threshold is a community heuristic, not a measured constant.
 
@@ -96,7 +96,7 @@ The corpus is unanimous: thoughts evaporate in seconds, capture is the cheapest 
 - Undo instead of confirmation, archive instead of delete, autosave everything ([ux-design-for-adhd](ux-design-for-adhd.md)).
 - Recoverability beats maximal encryption for the task graph; E2E is reserved for the sensitive tier, with an honest tradeoff screen ([privacy-and-data-ethics](privacy-and-data-ethics.md)).
 
-**Risks.** A browsable everything-archive can become a shame museum if it is ever *pushed* rather than pulled — the *graveyard ambush* anti-pattern ([anti-patterns.md](anti-patterns.md)); historical incompletions must be queryable by the user, never surfaced at them ([emotional-regulation-and-rsd](../foundations/emotional-regulation-and-rsd.md)).
+**Risks.** A browsable everything-archive can become a shame museum if it is ever *pushed* rather than pulled — the *overdue shame stacks* anti-pattern (AP-1, [anti-patterns.md](anti-patterns.md)); historical incompletions must be queryable by the user, never surfaced at them ([emotional-regulation-and-rsd](../foundations/emotional-regulation-and-rsd.md)).
 
 **Confidence: promising** — the trust mechanism (GTD's "trusted system," Zeigarnik framing) is conceptually strong and community-consistent; no direct studies of trust collapse and repair in task apps exist.
 
@@ -117,7 +117,7 @@ Planning — not retention, not execution — is the measurably broken step (d =
 - One visible sentence, zero taps to see it — covert self-speech is "weak as a source of stimulus control" ([executive-function](../foundations/executive-function.md)).
 - Reminders must carry the action, not the task name: "Report" re-triggers the freeze; "Open report doc — one bad paragraph" is a launch instruction ([task-initiation-and-paralysis](../daily-life/task-initiation-and-paralysis.md), [memory-and-object-permanence](../foundations/memory-and-object-permanence.md)).
 
-**Risks.** Requiring a next action *at capture* would kill capture (setup-tax anti-pattern, [anti-patterns.md](anti-patterns.md)); extraction must be deferred and assisted. Machine-proposed actions that miss the point erode trust fast — apply the suggest→preview→undo ladder (direction 40).
+**Risks.** Requiring a next action *at capture* would kill capture (*buried capture* anti-pattern, AP-20, [anti-patterns.md](anti-patterns.md)); extraction must be deferred and assisted. Machine-proposed actions that miss the point erode trust fast — apply the suggest→preview→undo ladder (direction 40).
 
 **Confidence: evidence-backed** — chunking into concrete actions is a validated CBT ingredient and GTD's best-fitting mechanic for ADHD; the skip-ambiguous-items mechanism is well documented.
 
@@ -183,7 +183,7 @@ Planning features must assume the plan will break and make breakage cheap. Manua
 - Auto-reflow must respect transition buffers and never produce back-to-back stacking ([time-perception](../foundations/time-perception.md)).
 - No silent writes to user data — reflow is an Act-tier operation: preview or undo always available ([ai-assistance-for-adhd](ai-assistance-for-adhd.md)).
 
-**Risks.** Over-eager reflow becomes the *black-box automation* anti-pattern ([anti-patterns.md](anti-patterns.md)) — the external memory rearranging itself erodes the predictability that makes it trustworthy ([memory-and-object-permanence](../foundations/memory-and-object-permanence.md)). Whether self-healing actually extends system lifespan is unproven ([planning-methodologies-and-adhd](../strategies/planning-methodologies-and-adhd.md) open questions).
+**Risks.** Over-eager reflow becomes the *thrash* mode of the schedules-that-shatter-or-thrash anti-pattern (AP-19, [anti-patterns.md](anti-patterns.md)) — the external memory rearranging itself erodes the predictability that makes it trustworthy ([memory-and-object-permanence](../foundations/memory-and-object-permanence.md)). Whether self-healing actually extends system lifespan is unproven ([planning-methodologies-and-adhd](../strategies/planning-methodologies-and-adhd.md) open questions).
 
 **Confidence: promising** — product-grade evidence (Motion/Reclaim ADHD reviews), no published retention data.
 
@@ -213,7 +213,7 @@ Planning features must assume the plan will break and make breakage cheap. Manua
 - Never auto-schedule demanding items early; repeatedly snoozed morning items get offered a later home instead of a failure mark ([daily-life-impact](../daily-life/daily-life-impact.md)).
 - Optional, user-declared cycle-aware adjustments only: never inferred from behavior, never required, always labeled emerging science ([populations-and-variation](../foundations/populations-and-variation.md), [habits-and-routines](../daily-life/habits-and-routines.md)).
 
-**Risks.** Energy tagging can become its own maintenance burden ([daily-life-impact](../daily-life/daily-life-impact.md) open questions); windows must work set-once-and-forget, with passive inference offered later under consent. Any slip into wellness-y "your energy score" territory hits both the *surveillance inference* anti-pattern ([anti-patterns.md](anti-patterns.md)) and regulatory exposure ([when-to-back-off](when-to-back-off.md)).
+**Risks.** Energy tagging can become its own maintenance burden ([daily-life-impact](../daily-life/daily-life-impact.md) open questions); windows must work set-once-and-forget, with passive inference offered later under consent. Any slip into wellness-y "your energy score" territory hits both the *uninvited state inference* anti-pattern (AP-22, [anti-patterns.md](anti-patterns.md)) and regulatory exposure ([when-to-back-off](when-to-back-off.md)).
 
 **Confidence: promising** — circadian evidence is robust and the community practice (spoons, coverage planning) is widespread; the feature form is untested.
 
@@ -500,7 +500,7 @@ Every user will disappear; the boom-bust cycle guarantees it ([daily-life-impact
 - Neutral acknowledgment, no backlog wall, immediate small win ([when-to-back-off](when-to-back-off.md), [planning-methodologies-and-adhd](../strategies/planning-methodologies-and-adhd.md)).
 - During the absence itself: no guilt notifications, no "we miss you" engagement bait ([ux-design-for-adhd](ux-design-for-adhd.md)).
 
-**Risks.** Over-celebrating a return can read as condescension from the tone-deaf end of the *toxic positivity* spectrum ([anti-patterns.md](anti-patterns.md), [emotional-regulation-and-rsd](../foundations/emotional-regulation-and-rsd.md)); calibrate against direction 38's tone dial. If auto-tidying was aggressive, the welcome must link the trust ledger ("here's what we tidied — undo anything") or the user may feel the app rewrote their life (direction 2).
+**Risks.** Over-celebrating a return can read as condescension from the tone-deaf end of the toxic-positivity spectrum ([emotional-regulation-and-rsd](../foundations/emotional-regulation-and-rsd.md)); calibrate against direction 38's tone dial. If auto-tidying was aggressive, the welcome must link the trust ledger ("here's what we tidied — undo anything") or the user may feel the app rewrote their life (direction 2).
 
 **Confidence: promising** — the failure it repairs is the best-documented lifecycle fact in the market analysis; the flow itself is Klyr's core original bet, untested.
 
@@ -549,7 +549,7 @@ Never assume the user can feel duration, sequence a day, or notice a deadline ap
 
 **Constraints from research.**
 - Timing of the prompt matters more than the number of prompts (strategic-monitoring mediation study) ([time-perception](../foundations/time-perception.md)).
-- Self-imposed deadlines beat none but are set badly — the system should propose spacing (Ariely & Wertenbroch) ([evidence-based-strategies](../strategies/evidence-based-strategies.md)).
+- Self-imposed deadlines beat none but are set badly — the system should propose spacing (Ariely & Wertenbroch — a classic finding with mixed replication; see [evidence-based-strategies](../strategies/evidence-based-strategies.md)).
 - Model commitments as stop → transition → prepare → travel → buffer, with auto-inserted, tunable buffers; never schedule back-to-back by default ([time-perception](../foundations/time-perception.md)).
 
 **Risks.** Late-window escalation is deliberate urgency engineering — for anxious users it can tip into panic; escalation curves must be per-user tunable and capped (*fake urgency* anti-pattern boundary, [anti-patterns.md](anti-patterns.md), [emotional-regulation-and-rsd](../foundations/emotional-regulation-and-rsd.md)). Intermediate deadlines the user starts ignoring train deadline-blindness — track and adapt rather than repeat.
@@ -742,7 +742,7 @@ The placement rule: invisible AI beats conversational AI for defaults, because e
 - Small/on-device models for high-frequency invisible ops; sensitive fields stay out of training pipelines, stated explicitly ([ai-assistance-for-adhd](ai-assistance-for-adhd.md), [privacy-and-data-ethics](privacy-and-data-ethics.md)).
 - Instrument the trust loop (suggestion acceptance over time, abandonment after errors), not chat engagement ([ai-assistance-for-adhd](ai-assistance-for-adhd.md)).
 
-**Risks.** Parse errors on messy input (fragments, voice mumbles) below the reliability floor turn magic into mistrust — real-world accuracy rates are unknown ([ai-assistance-for-adhd](ai-assistance-for-adhd.md) open questions). Provenance chips everywhere can become clutter; the *black-box automation* anti-pattern ([anti-patterns.md](anti-patterns.md)) is avoided by legibility on demand, not labels on everything.
+**Risks.** Parse errors on messy input (fragments, voice mumbles) below the reliability floor turn magic into mistrust — real-world accuracy rates are unknown ([ai-assistance-for-adhd](ai-assistance-for-adhd.md) open questions). Provenance chips everywhere can become clutter; the *silent data loss* anti-pattern (AP-21, [anti-patterns.md](anti-patterns.md)) — whose AI variant is exactly this silent rearranging — is avoided by legibility on demand, not labels on everything.
 
 **Confidence: promising** — the placement logic is well reasoned from documented frictions; production reliability for this population is unmeasured.
 

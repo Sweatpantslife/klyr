@@ -9,7 +9,7 @@ related:
   - research/daily-life/habits-and-routines.md
   - research/strategies/motivation-and-gamification.md
   - research/product/ux-design-for-adhd.md
-sources: 31
+sources: 32
 updated: 2026-07-25
 summary: >
   The emotional layer of ADHD — dysregulation, rejection sensitivity, accumulated shame,
@@ -81,7 +81,7 @@ What is better evidenced:
 
 - Adults with ADHD report **lower self-esteem and elevated shame** even when high-achieving; clinicians describe external criticism hardening into an inner critic ("lazy," "careless," "too much") [14][15].
 - Women diagnosed late describe internalizing criticism for decades, with guilt, shame, and "disconcertingly low self-esteem" attributed to the missed diagnosis [6].
-- A 2019 study (Masuch et al., reported via [26]) found **~23% of adults with ADHD report high internalized stigma**, correlating with lower self-esteem and psychological distress.
+- A 2019 study of 104 adults with ADHD (Masuch et al. [32], surfaced via [26]) found **~23% report high internalized stigma** (and 88.5% anticipate discrimination in daily life), correlating with lower self-esteem and psychological distress.
 - Qualitative work finds students with ADHD experience intense shame about the diagnosis itself and routinely conceal it [5].
 
 Critically for Klyr: **abandoned systems are themselves shame objects.** Every dead planner, every to-do app with 200 stale items, is physical evidence for the "I fail at everything" narrative — community writing calls the cycle out explicitly: new system → novelty high → missed days → guilt → avoidance → deletion → self-blame → repeat [24][26]. The graveyard of abandoned tools means Klyr's median new user arrives *pre-shamed by the product category itself*.
@@ -207,3 +207,4 @@ Two design-relevant clarifications from this literature: self-compassion is **no
 29. [My Senpai: Why People Quit Duolingo — An Analysis of User Venting](https://my-senpai.com/insights/why-people-quit-duolingo.html) [product]
 30. [ScreenWise: Duolingo Streaks and the 'Loss Aversion' Trap — A Parent's Guide](https://screenwiseapp.com/guides/duolingo-streaks-and-anxiety-in-kids) [community]
 31. [UX Magazine: The Psychology of Hot Streak Game Design — Keeping Players Coming Back Without Shame](https://uxmag.com/articles/the-psychology-of-hot-streak-game-design-how-to-keep-players-coming-back-every-day-without-shame) [product]
+32. [Masuch TV, Bea M, Alm B, et al. (2019). Internalized stigma, anticipated discrimination and perceived public stigma in adults with ADHD. ADHD Attention Deficit and Hyperactivity Disorders 11:211–220](https://link.springer.com/article/10.1007/s12402-018-0274-9) [research]

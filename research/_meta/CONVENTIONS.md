@@ -5,7 +5,8 @@ file: research/_meta/CONVENTIONS.md
 tags: [conventions, contributing, format]
 related:
   - research/_meta/research-process.md
-updated: 2026-07-24
+sources: 0
+updated: 2026-07-25
 summary: >
   The format, sourcing, and tone contract for every document in research/.
   Read this before adding or editing any corpus doc.
@@ -64,7 +65,7 @@ Required sections, in order:
 5. `## Open questions` — optional but encouraged: what research doesn't settle, what needs user testing.
 6. `## Sources` — numbered markdown links, each tagged with a source type (below). Only sources actually consulted.
 
-Synthesis docs (`design-principles`, `feature-directions`, `anti-patterns`, `GLOSSARY`, the executive summary, `INDEX`) may replace the body/implications sections with their own structure, but keep frontmatter; `INDEX.md` and `GLOSSARY.md` are exempt from `## TL;DR`.
+Synthesis docs (`design-principles`, `feature-directions`, `anti-patterns`, `GLOSSARY`, the executive summary, `INDEX`) may replace the body/implications sections with their own structure, but keep frontmatter; `INDEX.md`, `GLOSSARY.md`, and the `_meta/` docs are exempt from `## TL;DR` (the `_meta/` docs carry `sources: 0` like other non-research docs).
 
 ## Evidence and sourcing rules
 

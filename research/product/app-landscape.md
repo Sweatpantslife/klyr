@@ -38,7 +38,7 @@ This survey draws on product sites, app-store review themes, Reddit/community wr
 
 ## The abandonment lifecycle
 
-Baseline retention for this category is brutal: an analysis of published engagement data puts median 15-day retention for mental health apps at **3.9%** (general health apps: 6.29%), with over 80% of users abandoning between days 1–10 [1]. A cross-sectional mHealth survey found the main abandonment drivers are loss of interest, usability problems, hidden costs, data concerns — and, notably, *deliberately experimenting with many apps to find the right one* [2]. Regular use of self-monitoring features strongly predicts who stays [3].
+Baseline retention for this category is brutal: a peer-reviewed analysis of objective usage data (Baumel et al., 2019) puts median 15-day retention for mental health apps at **3.9%** (general health apps: 6.29%), with over 80% of users abandoning between days 1–10 [1]. A cross-sectional mHealth survey found the main abandonment drivers are loss of interest, usability problems, hidden costs, data concerns — and, notably, *deliberately experimenting with many apps to find the right one* [2]. Regular use of self-monitoring features strongly predicts who stays [3].
 
 For ADHD users specifically, community writing converges on a predictable arc [5][6][7]:
 
@@ -204,7 +204,7 @@ The synthesis insight of this entire landscape: **the median ADHD user is a seri
 
 ## Sources
 
-1. [research] [Why Digital Mental Health Can't Keep Its Users — Scott Wallace, PhD (Medium/Advances in AI for Mental Health)](https://medium.com/ai-in-mental-health/why-digital-mental-health-cant-keep-its-users-082051de6711)
+1. [research] [Baumel A, Muench F, Edan S, Kane JM (2019). Objective User Engagement With Mental Health Apps: Systematic Search and Panel-Based Usage Analysis. J Med Internet Res 21(9):e14567](https://www.jmir.org/2019/9/e14567/) — primary source for the 15-day retention figures; surfaced via [Scott Wallace's summary (Medium/Advances in AI for Mental Health)](https://medium.com/ai-in-mental-health/why-digital-mental-health-cant-keep-its-users-082051de6711)
 2. [research] [User Engagement and Abandonment of mHealth: A Cross-Sectional Survey (PMC)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8872344/)
 3. [research] [Effect of self-monitoring on long-term patient engagement with mobile health applications (PMC)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6062090/)
 4. [research] [Usability and feasibility of a cognitive-behavioral mobile app for ADHD in adults (PLOS Digital Health)](https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000083)
