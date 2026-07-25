@@ -4,14 +4,15 @@
 
 Klyr is being designed from the ground up for people with ADHD — not a generic to-do app with an "ADHD mode" bolted on. The goal: a system that feels intuitive, stays easy to maintain, and helps you actually do what you need and want to do — without pressure, without shame, and without collapsing the first week you ignore it.
 
-## Status: research phase complete
+## Status: research complete · product vision written
 
-Product design has not started yet. What exists today is the **design-research corpus** that will drive every product decision: **29 documents, 553 cited sources**, produced by a multi-agent research pipeline (peer-reviewed studies, clinical experts, and labeled lived-experience sources) and audited in three independent passes for scientific accuracy, coherence, and navigability.
+Two things exist today. The **design-research corpus** — **29 documents, 553 cited sources**, produced by a multi-agent research pipeline (peer-reviewed studies, clinical experts, and labeled lived-experience sources) and audited in three independent passes for scientific accuracy, coherence, and navigability. And the **[product vision](product/vision.md)** — synthesized from four judged candidate visions, verified against the corpus's binding principles: Klyr as *the executive function you wear on the outside*, a push-first delivery layer judged by one gate — *if you ever have to remember to check Klyr, Klyr has failed.*
 
-**Start at [`research/INDEX.md`](research/INDEX.md)** — or read the [10-minute executive summary](research/00-executive-summary.md).
+**Start at [`research/INDEX.md`](research/INDEX.md)** — or read the [10-minute executive summary](research/00-executive-summary.md), then the [vision](product/vision.md).
 
 | If you want... | Go to |
 |---|---|
+| What we're building and why | [product/vision.md](product/vision.md) |
 | The whole argument in 10 minutes | [research/00-executive-summary.md](research/00-executive-summary.md) |
 | The binding design principles (20) | [research/product/design-principles.md](research/product/design-principles.md) |
 | What Klyr must never do (24 anti-patterns) | [research/product/anti-patterns.md](research/product/anti-patterns.md) |
@@ -26,12 +27,13 @@ ADHD is a performance problem, not a knowledge problem — people know exactly w
 
 ## Repo map
 
-- `research/` — the design-research corpus (start at [`INDEX.md`](research/INDEX.md))
+- `product/` — product definition: what we've decided to build (start at [`vision.md`](product/vision.md))
+- `research/` — the design-research corpus: what we know (start at [`INDEX.md`](research/INDEX.md))
 - `research/_meta/` — corpus conventions and provenance
 - `CLAUDE.md` — working guide for AI agents contributing to this repo
 
 ## Planned next phases
 
-1. Product vision and scope, grounded in [`feature-directions.md`](research/product/feature-directions.md)
+1. ~~Product vision~~ — done: [`product/vision.md`](product/vision.md)
 2. Design system and prototypes, bound by [`design-principles.md`](research/product/design-principles.md) and [`anti-patterns.md`](research/product/anti-patterns.md)
-3. Build
+3. Build the v1 spine (see the vision's §7 scope and cut-order)
