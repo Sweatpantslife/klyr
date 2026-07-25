@@ -32,5 +32,20 @@ Produced in July 2026 by a multi-agent research pipeline (Claude Code workflows)
 
 ## Final corpus state
 
-<!-- Filled in by the librarian agent at corpus completion. -->
-_Pending — corpus under construction._
+As of 2026-07-25 the corpus is complete: **29 documents, 553 cited sources**.
+
+| Area | Docs | Cited sources |
+|---|---|---|
+| `foundations/` | 8 | 206 |
+| `daily-life/` | 3 | 75 |
+| `strategies/` | 3 | 115 |
+| `product/` (research) | 6 | 157 |
+| **Research docs total** | **20** | **553** |
+| `product/` (synthesis) | 3 | 0 (by convention) |
+| Root (executive summary, GLOSSARY, INDEX, README) | 4 | 0 (by convention) |
+| `_meta/` | 2 | — |
+
+- **Research sweep (15 docs, 480 sources):** 7 foundations docs, 3 daily-life docs, 3 strategies docs, and 2 product docs ([app-landscape](../product/app-landscape.md), [ux-design-for-adhd](../product/ux-design-for-adhd.md)).
+- **Gap docs (5 docs, 73 sources), commissioned by the completeness critic:** [populations-and-variation](../foundations/populations-and-variation.md), [ai-assistance-for-adhd](../product/ai-assistance-for-adhd.md), [when-to-back-off](../product/when-to-back-off.md), [privacy-and-data-ethics](../product/privacy-and-data-ethics.md), [outcomes-and-measurement](../product/outcomes-and-measurement.md).
+- **Synthesis docs (4):** [design-principles](../product/design-principles.md) (20 principles), [feature-directions](../product/feature-directions.md) (45 directions), [anti-patterns](../product/anti-patterns.md) (24 patterns), and the [executive summary](../00-executive-summary.md). Plus navigation: [INDEX](../INDEX.md), [README](../README.md), [GLOSSARY](../GLOSSARY.md).
+- **Source counting note:** figures are the frontmatter `sources:` values summed per doc — a source consulted by two docs counts twice. Synthesis and navigation docs set `sources: 0`; their evidence lives in the research docs they cite.
