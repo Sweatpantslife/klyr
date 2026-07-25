@@ -9,7 +9,7 @@ related:
   - research/foundations/time-perception.md
   - research/foundations/dopamine-and-motivation.md
   - research/product/ux-design-for-adhd.md
-sources: 29
+sources: 32
 updated: 2026-07-25
 summary: >
   How ADHD attention is allocated rather than absent: external vs internal distraction, hyperfocus
@@ -66,7 +66,7 @@ Design consequence: the two distraction types need different countermeasures. Ex
 
 **Working term for this corpus; community-described, mechanistically plausible, not a formal construct.** The pattern: mid-task, an unrelated but real thought arrives — "the passport expires in March," "I never replied to Dana." The ADHDer does not act on it because they are impulsive. They act on it because they have learned, correctly, that an unrecorded intention is a lost intention. See [memory-and-object-permanence.md](./memory-and-object-permanence.md) for the prospective-memory evidence behind that fear.
 
-Two literatures converge here. First, intrusive thoughts are a first-class distraction factor in the *d*-factor model, not a footnote ([source 5](#sources)). Second, Leroy's work shows **incompleteness** is the strongest driver of attention residue ([source 8](#sources)) — and an uncaptured intention is, cognitively, an unfinished task. It keeps drawing resources until it is either done or safely stored.
+Two literatures converge here. First, intrusive thoughts are a first-class distraction factor in the *d*-factor model, not a footnote ([source 5](#sources)). Second, Leroy's work shows **incompleteness** is the strongest driver of attention residue ([source 8](#sources)) — and an uncaptured intention is, cognitively, an unfinished task. It keeps drawing resources until it is either done or safely stored. And research on **intention offloading** shows the escape actually works: people reliably store delayed intentions in external cues, doing so improves later follow-through, and whether they offload at all is governed by their *metacognitive confidence* in the store — so the tactic only defuses the "act now" urge if the user genuinely trusts the store will hand the item back at the right moment ([source 31](#sources)).
 
 This makes capture a *focus* feature, not an inbox feature. If parking a thought is slower or less trustworthy than acting on it, the user will act on it, and the current task dies.
 
@@ -149,6 +149,8 @@ The most-cited number in productivity software marketing is "it takes 23 minutes
 - What was measured for comparison was **the time until interrupted work was resumed on the same day** — during which workers typically completed about two intervening tasks. That is "when did they come back," not "how long until they were back at full capacity."
 - Mark's CHI 2008 paper *The Cost of Interrupted Work: More Speed and Stress* found interrupted conditions were completed in about 20.3–20.6 minutes versus 22.8 minutes uninterrupted — interrupted work was **faster**, but at the price of significantly higher stress, frustration, time pressure, and effort ([sources 17, 25](#sources)).
 - **Resumption lag** — the time to actually re-engage — was collected but not reported as a headline number.
+
+What Mark's field observations *did* establish is how fragmented knowledge work already is. In her CHI 2005 study *No Task Left Behind?*, researchers shadowed 24 information workers to the second and found people spent on average only about **11 minutes** in a "working sphere" before switching or being interrupted; **57%** of work episodes were interrupted; and interruptions split almost evenly between **external (48%)** and **self-generated/internal (52%)** sources — self-interruption is roughly half the problem. Of interrupted work, **77%** was resumed the same day, but with more than two other tasks intervening first ([source 30](#sources)). So "recovery" is never one clean gap; it is a detour through several other tasks, each leaving its own residue. And the ambient baseline has only worsened: Mark's later observational work found average attention on a screen fell from about **2.5 minutes in 2004 to roughly 47 seconds** in recent years ([source 32](#sources)) — the environment every user works in is now natively hyper-fragmented.
 
 Honest version for Klyr's internal use: *interruptions are costly, but the cost is largely paid in stress, error, and unfinished threads rather than in a fixed recovery clock, and the popular 23-minute figure should not appear in Klyr's copy.*
 
@@ -259,3 +261,6 @@ Two design consequences. First, the competitor for a Klyr user's attention is no
 27. [ADDitude, *Managing Transitions for Children with ADHD*](https://www.additudemag.com/managing-transitions-adhd-children/) — [clinical]
 28. [Medical News Today, *Body doubling for ADHD* (notes absence of formal research)](https://www.medicalnewstoday.com/articles/body-doubling-adhd) — [clinical]
 29. [Simply Psychology summary of Xu et al. (2025), *Psychology Research and Behavior Management* — ADHD symptoms and problematic short-video use (N=563)](https://www.simplypsychology.org/news/how-adhd-symptoms-fuel-compulsive-short-video-scrolling) — [research]
+30. [Mark, Gonzalez & Harris (2005), *No Task Left Behind? Examining the Nature of Fragmented Work*, CHI 2005 (24 information workers; ~11-min working spheres, 57% interrupted, 52% internal / 48% external, 77% resumed same day)](https://www.ics.uci.edu/~gmark/CHI2005.pdf) — [research]
+31. [Gilbert, S. J., et al. (2022), *Outsourcing memory to external tools: A review of "intention offloading"*, Psychonomic Bulletin & Review](https://pubmed.ncbi.nlm.nih.gov/35789477/) — [research]
+32. [American Psychological Association, *Speaking of Psychology: Why our attention spans are shrinking, with Gloria Mark, PhD* (reports her observational finding of ~2.5-min screen attention in 2004 falling to ~47 sec)](https://www.apa.org/news/podcasts/speaking-of-psychology/attention-spans) — [research]
